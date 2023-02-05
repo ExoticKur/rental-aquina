@@ -46,15 +46,6 @@
 			return $query->result();
 		}
 		
-		// public function get_transaksi()
-		// {
-		// 	$this->db->select('*');
-		// 	$this->db->from('transaksi');
-		// $this->db->join('customer', 'transaksi.id_customer = customer.id_customer');
-		// $this->db->join('mobil', 'transaksi.id_mobil = mobil.merk');
-		// 	$query = $this->db->get('');
-		// 	return $query->result();
-		// }
 
 		public function get_transaksi()
 	{
